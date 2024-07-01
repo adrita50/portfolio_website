@@ -1,0 +1,319 @@
+/* Navbar Styles */ 
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  padding: 10px 15px; /* Reduced padding */
+  font-size: 14px; /* Adjusted font size for a smaller appearance */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 18px; /* Adjusted font size */
+  color: #000; /* Ensure the brand name is visible */
+  text-decoration: none; /* Remove underline from the brand name */
+}
+
+.navbar-nav .nav-item .nav-link {
+  padding: 5px 10px; /* Reduced padding */
+  color: #000; /* Set link color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #c850fff3; /* Change link color on hover */
+}
+
+.navbar-toggler {
+  padding: 3px 7px; /* Adjust padding for the toggle button */
+}
+
+.color {
+  color: #d913ebf3; /* Custom color for the brand name */
+}
+
+/* Add some basic responsive design */
+@media (max-width: 576px) {
+  .navbar {
+    font-size: 12px;
+  }
+
+  .navbar-brand {
+    font-size: 16px;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    padding: 3px 5px;
+  }
+}
+
+
+.code-text {
+  font-family: monospace; /* Monospace font for consistent character width */
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333; /* Dark gray text */
+  padding: 10px; /* Add some padding around the text */
+}
+/* About Style */
+h1, h2, h3 {
+  color: #333;
+}
+
+.btn-light {
+  background-color: #d913ebf3;
+  border-color: #d400ff;
+}
+
+.btn-light {
+  background-color: #d913ebf3;
+  border-color: #d400ff;
+}
+
+#about .btn {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+#about .btn:hover {
+  opacity: 0.10;
+} 
+h1{
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 20px;
+
+}
+
+h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 19px;
+  color: #555;
+  margin-top: 20px;
+}
+
+/* Styling for the rows */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.col-md-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 10px;
+}
+
+/* Styling for educational qualifications and experiences */
+.education-section, .experience-section {
+  background-color: #f8f9fa;
+  border: 1px solid #e3e6ea;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+/* Styling for individual items */
+.mb-3 {
+  margin-bottom: 1rem;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.text-end {
+  text-align: right;
+}
+
+/* Styling for icons */
+h2 i {
+  margin-right: 8px;
+  color: #333333;
+}
+
+/* Additional padding for the top of the section */
+.mt-5 {
+  margin-top: 3rem;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .text-end {
+    text-align: left;
+  }
+}
+.education-section:hover, .experience-section:hover {
+  background-color: #d913ebf3; /* Slightly darker background on hover */
+  color: #fff;
+  transform: translateY(-10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Slightly more pronounced box shadow on hover */
+} 
+
+/*Styling for software*/
+.card {
+  margin-bottom: 20px;
+}
+.icon {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+.star-rating {
+  color: gold;
+}
+
+.photoshop-section:hover, .illustrator-section:hover {
+  background-color: #d913ebf3; /* Slightly darker background on hover */
+  color: #fff;
+  transform: translateY(-10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Slightly more pronounced box shadow on hover */
+}
+
+
+
+/* Skill Section */
+.section-heading h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.section-heading p {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.feature-box-01 {
+  background-color: #f8f9fa;
+  border: 1px solid #e3e6ea;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.feature-box-01:hover {
+  background-color: #d913ebf3;
+  color: #fff;
+  transform: translateY(-10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.feature-box-01 .icon {
+  font-size: 2rem;
+  margin-right: 15px;
+}
+
+.feature-box-01 h5 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.feature-box-01 p {
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
+.feature-box-01:hover .icon,
+.feature-box-01:hover h5,
+.feature-box-01:hover p {
+  color: #fff;
+}
+
+/* Contact Section */ 
+/* Contact Section Styling */
+
+
+.form-container {
+max-width: 500px;
+margin: 50px auto;
+padding: 20px;
+background-color: #f5f2f7;
+border-radius: 10px;
+box-shadow: 0 0 15px rgba(245, 244, 244, 0.753);
+}
+.form-container h1 {
+text-align: center;
+color: #e097fd;
+}
+.form-container .form-control {
+background-color: #f8f9fa;
+border: none;
+color: #d8d5da;
+}
+.form-container .form-control::placeholder {
+color: #c08bfd;
+}
+.form-container .btn-primary {
+width: 100%;
+background-color: #e557f8;
+border: none;
+}
+.form-container .btn-primary:hover {
+background-color: #c0c0c0;
+}
+.navigation, .latest-info {
+margin-top: 30px;
+text-align: center;
+}
+.navigation a, .latest-info a {
+color: #e2e2e2;
+text-decoration: none;
+margin: 0 10px;
+}
+.social-icons a {
+color: #f64afc;
+text-decoration: none;
+margin: 0 5px;
+font-size: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+footer a {
+  color: #ffc107;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) { 
+  .navbar-brand img {
+    width: 100px;
+  } 
+}
+
+  #home h1 {
+    font-size: 2rem;
+  }
+
+  #home h3 {
+    font-size: 1.2rem;
+  }
+
+  #home img {
+    width: 150px;
+  }
